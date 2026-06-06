@@ -1,0 +1,154 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+/* HEADER */
+header {
+    background: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin: 5px;
+}
+
+/* NAV */
+nav {
+    background: #6d4c41;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIONES */
+section {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* HISTORIA */
+#historia {
+    background: #fff8f0;
+}
+
+.historia-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-historia {
+    width: 150px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.texto {
+    width: 400px;
+    margin: 15px;
+    text-align: left;
+}
+
+/* PRODUCTOS */
+#productos {
+    text-align: center;
+}
+
+.caja {
+    display: inline-block;
+    width: 250px;
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    vertical-align: top;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    background: gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* FORMULARIOS */
+form {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    background: #4e342e;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3e2723;
+}
+
+/* CONTACTO */
+#contacto {
+    text-align: center;
+    background: #eee;
+    padding: 30px;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;  }
+
+    img{
+        width: 100%;
+        height: 100px;
+    }
+
+/* FOOTER */
+footer {
+    background: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
